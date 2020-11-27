@@ -1,0 +1,77 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1899,         67]
+NotebookOptionsPosition[      1586,         51]
+NotebookOutlinePosition[      1930,         66]
+CellTagsIndexPosition[      1887,         63]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"max", " ", "=", " ", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Do", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Total", "[", 
+        RowBox[{"IntegerDigits", "[", 
+         RowBox[{"x", "^", "y"}], "]"}], "]"}], ">", "max"}], ",", 
+      RowBox[{"max", "=", 
+       RowBox[{"Total", "[", 
+        RowBox[{"IntegerDigits", "[", 
+         RowBox[{"x", "^", "y"}], "]"}], "]"}]}], ","}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "1", ",", "99"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"y", ",", "1", ",", "99"}], "}"}]}], "\[IndentingNewLine]", 
+   "]"}], ";"}], "\[IndentingNewLine]", "max"}], "Input",
+ CellChangeTimes->{{3.5814179505385246`*^9, 3.5814179822056913`*^9}, {
+  3.581418033872857*^9, 3.5814183100774755`*^9}}],
+
+Cell[BoxData["972"], "Output",
+ CellChangeTimes->{{3.5814183004805155`*^9, 3.5814183110925765`*^9}}]
+}, Open  ]]
+},
+WindowSize->{707, 761},
+WindowMargins->{{260, Automatic}, {Automatic, 9}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 888, 23, 132, "Input"],
+Cell[1470, 47, 100, 1, 31, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,0 +1,63 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1348,         53]
+NotebookOptionsPosition[      1037,         37]
+NotebookOutlinePosition[      1382,         52]
+CellTagsIndexPosition[      1339,         49]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Mod", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"28433", "*", 
+     SuperscriptBox["2", "7830457"]}], "+", "1"}], ",", 
+   RowBox[{"10", "^", "10"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.581436575597821*^9, 3.5814366125225134`*^9}, {
+  3.5814366587721376`*^9, 3.581436658964157*^9}}],
+
+Cell[BoxData["8739992577"], "Output",
+ CellChangeTimes->{{3.581436578663128*^9, 3.581436613212582*^9}, 
+   3.581436659437204*^9}]
+}, Open  ]]
+},
+WindowSize->{707, 761},
+WindowMargins->{{Automatic, 162}, {Automatic, 40}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 310, 8, 33, "Input"],
+Cell[892, 32, 129, 2, 63, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

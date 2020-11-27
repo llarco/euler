@@ -1,0 +1,119 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3199,        110]
+NotebookOptionsPosition[      2739,         90]
+NotebookOutlinePosition[      3082,        105]
+CellTagsIndexPosition[      3039,        102]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"words", "=", 
+   RowBox[{"StringSplit", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], "<>", "\"\<words.txt\>\""}], 
+      "]"}], ",", "\"\<,\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.581366885175523*^9, 3.5813668902980347`*^9}, {
+  3.5813684575087404`*^9, 3.5813685440733957`*^9}, {3.5813685796269507`*^9, 
+  3.5813685980837965`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"t", "[", "n_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"1", "/", "2"}], ")"}], 
+    RowBox[{"(", "n", ")"}], 
+    RowBox[{"(", 
+     RowBox[{"n", "+", "1"}], ")"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.581368625161504*^9, 3.581368640365024*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"triangles", "=", 
+   RowBox[{"t", "/@", 
+    RowBox[{"Range", "[", "10000", "]"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.5813686602520123`*^9, 3.5813686825032377`*^9}, 
+   3.581369014141398*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"triangleWord", "[", "n_", "]"}], ":=", 
+  RowBox[{"MemberQ", "[", 
+   RowBox[{"triangles", ",", 
+    RowBox[{"Total", "[", 
+     RowBox[{
+      RowBox[{"ToCharacterCode", "[", 
+       RowBox[{"StringDrop", "[", 
+        RowBox[{
+         RowBox[{"StringDrop", "[", 
+          RowBox[{
+           RowBox[{
+           "words", "\[LeftDoubleBracket]", "n", "\[RightDoubleBracket]"}], 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"-", "1"}]}], "]"}], "]"}], "-", "64"}], "]"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.5813686960775948`*^9, 3.581368846638649*^9}, {
+  3.5813688897279577`*^9, 3.5813688942734127`*^9}, {3.5813689244424286`*^9, 
+  3.581368932914276*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Length", "[", 
+  RowBox[{"Select", "[", 
+   RowBox[{
+    RowBox[{"Range", "[", 
+     RowBox[{"Length", "[", "words", "]"}], "]"}], ",", 
+    RowBox[{
+     RowBox[{"triangleWord", "[", "#", "]"}], "&"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.5813689753415184`*^9, 3.581369011909175*^9}}],
+
+Cell[BoxData["162"], "Output",
+ CellChangeTimes->{{3.5813690057165556`*^9, 3.581369017955779*^9}}]
+}, Open  ]]
+},
+WindowSize->{1264, 889},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 448, 11, 31, "Input"],
+Cell[1008, 33, 315, 10, 31, "Input"],
+Cell[1326, 45, 234, 6, 31, "Input"],
+Cell[1563, 53, 714, 19, 31, "Input"],
+Cell[CellGroupData[{
+Cell[2302, 76, 320, 8, 31, "Input"],
+Cell[2625, 86, 98, 1, 63, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

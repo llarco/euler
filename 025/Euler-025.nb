@@ -1,0 +1,80 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1802,         70]
+NotebookOptionsPosition[      1383,         50]
+NotebookOutlinePosition[      1728,         65]
+CellTagsIndexPosition[      1685,         62]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"While", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"IntegerLength", "[", 
+      RowBox[{"Fibonacci", "[", "n", "]"}], "]"}], "<", "1000"}], ",", 
+    RowBox[{"n", "++"}]}], "]"}], ";", "n"}]}], "Input",
+ CellChangeTimes->{{3.581364776581684*^9, 3.581364969415966*^9}, {
+  3.581365000179042*^9, 3.581365004489473*^9}}],
+
+Cell[BoxData["4782"], "Output",
+ CellChangeTimes->{3.581365005039528*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegerLength", "[", 
+  RowBox[{"Fibonacci", "[", "4782", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.5813650161696405`*^9, 3.5813650169057145`*^9}}],
+
+Cell[BoxData["1000"], "Output",
+ CellChangeTimes->{3.5813650173317566`*^9}]
+}, Open  ]]
+},
+WindowSize->{707, 761},
+WindowMargins->{{192, Automatic}, {38, Automatic}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 422, 11, 52, "Input"],
+Cell[1004, 35, 73, 1, 63, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1114, 41, 175, 3, 31, "Input"],
+Cell[1292, 46, 75, 1, 31, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

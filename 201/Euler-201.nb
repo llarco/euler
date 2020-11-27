@@ -1,0 +1,115 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3642,        105]
+NotebookOptionsPosition[      3253,         87]
+NotebookOutlinePosition[      3595,        102]
+CellTagsIndexPosition[      3552,         99]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"Cases", "[", 
+     RowBox[{
+      RowBox[{"Tally", "[", 
+       RowBox[{"Total", "[", 
+        RowBox[{
+         RowBox[{"Subsets", "[", 
+          RowBox[{
+           RowBox[{"Table", "[", 
+            RowBox[{
+             SuperscriptBox["i", "2"], ",", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "1", ",", "100"}], "}"}]}], "]"}], ",", 
+           RowBox[{"{", "50", "}"}]}], "]"}], ",", 
+         RowBox[{"{", "2", "}"}]}], "]"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"p_", ",", "1"}], "}"}]}], "]"}], "/.", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"p_", ",", "_"}], "}"}], "\[Rule]", "p"}]}], ")"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.5814407625244718`*^9, 3.5814407649497147`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Subsets", "::", "toomany"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"The number of subsets \
+(\[NoBreak]\\!\\(100891344545564193334812497256\\)\[NoBreak]) indicated by \
+\[NoBreak]\\!\\(Subsets[\\(\\(\\(\\({1, 4, 9, 16, 25, 36, 49, 64, 81, 100, \
+121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625, \
+676, 729, 784, 841, 900, 961, 1024, 1089, 1156, 1225, 1296, 1369, 1444, 1521, \
+1600, 1681, 1764, 1849, 1936, 2025, 2116, 2209, 2304, 2401, 2500, \\(\\(\
+\[LeftSkeleton] 50 \[RightSkeleton]\\)\\)}\\)\\), \\(\\({50}\\)\\)\\)\\)]\\)\
+\[NoBreak] is too large; it must be a machine integer. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/Subsets\\\", ButtonNote -> \
+\\\"Subsets::toomany\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.5814408085070696`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Tally", "::", "list"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"List expected at position \[NoBreak]\\!\\(1\\)\[NoBreak] \
+in \[NoBreak]\\!\\(Tally[\\(\\(Subsets[\\(\\(\\(\\({1, 4, 9, 16, 25, 36, 49, \
+64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, \
+576, 625, 676, 729, 784, 841, 900, 961, 1024, 1089, 1156, 1225, 1296, 1369, \
+1444, 1521, 1600, 1681, 1764, 1849, 1936, 2025, 2116, 2209, 2304, 2401, 2500, \
+\\(\\(\[LeftSkeleton] 50 \[RightSkeleton]\\)\\)}\\)\\), \
+\\(\\({50}\\)\\)\\)\\)]\\)\\)]\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/list\\\", ButtonNote -> \
+\\\"Tally::list\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.5814408085420732`*^9}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.581440808543073*^9}]
+}, Open  ]]
+},
+WindowSize->{707, 761},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 807, 24, 77, "Input"],
+Cell[1389, 48, 916, 16, 90, "Message"],
+Cell[2308, 66, 856, 15, 73, "Message"],
+Cell[3167, 83, 70, 1, 63, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

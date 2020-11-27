@@ -1,0 +1,76 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1732,         66]
+NotebookOptionsPosition[      1420,         50]
+NotebookOutlinePosition[      1765,         65]
+CellTagsIndexPosition[      1722,         62]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Total", "[", 
+     RowBox[{"First", "[", 
+      RowBox[{"RealDigits", "[", 
+       RowBox[{"N", "[", 
+        RowBox[{
+         RowBox[{"Sqrt", "[", "#", "]"}], ",", "100"}], "]"}], "]"}], "]"}], 
+     "]"}], "&"}], "/@", 
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Sqrt", "[", 
+      RowBox[{"Range", "[", "100", "]"}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"!", 
+       RowBox[{"Element", "[", 
+        RowBox[{"#", ",", "Rationals"}], "]"}]}], "&"}]}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.5814199545759087`*^9, 3.5814200956890182`*^9}, {
+  3.5814201917736263`*^9, 3.581420214029851*^9}, {3.5814202555990076`*^9, 
+  3.5814202609845467`*^9}}],
+
+Cell[BoxData["40352"], "Output",
+ CellChangeTimes->{3.5814202615666046`*^9}]
+}, Open  ]]
+},
+WindowSize->{707, 761},
+WindowMargins->{{174, Automatic}, {Automatic, 54}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 746, 22, 52, "Input"],
+Cell[1328, 46, 76, 1, 31, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

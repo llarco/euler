@@ -1,0 +1,72 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1787,         63]
+NotebookOptionsPosition[      1437,         46]
+NotebookOutlinePosition[      1782,         61]
+CellTagsIndexPosition[      1739,         58]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Abundant", "[", "n_", "]"}], ":=", 
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"DivisorSigma", "[", 
+       RowBox[{"1", ",", "n"}], "]"}], "-", "n"}], ">", "n"}], ",", "True", 
+    ",", "False"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.58136263732878*^9, 3.5813626433713846`*^9}, {
+   3.5813631376098037`*^9, 3.5813631728753295`*^9}, 3.5813632630233436`*^9, {
+   3.5813642838654175`*^9, 3.581364291612192*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Abundant", "[", "12", "]"}]], "Input",
+ CellChangeTimes->{{3.581363162959338*^9, 3.581363167369779*^9}, {
+  3.5813642996269937`*^9, 3.5813643064826794`*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{{3.581363167999842*^9, 3.5813631758406262`*^9}, 
+   3.581363266552696*^9, {3.5813643011281433`*^9, 3.5813643067057014`*^9}}]
+}, Open  ]]
+},
+WindowSize->{707, 761},
+WindowMargins->{{144, Automatic}, {Automatic, 30}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 480, 12, 31, "Input"],
+Cell[CellGroupData[{
+Cell[1062, 36, 181, 3, 31, "Input"],
+Cell[1246, 41, 175, 2, 63, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
